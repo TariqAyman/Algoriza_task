@@ -1,6 +1,32 @@
 ## Algoriza TASK
 
-- Laravel 9.0
+- 1 - Create a simple web module with a related database to perform CRUD operations on the following tables:
+  - 1.1 - Products table that includes the following data:
+    - Product Name
+    - Description
+    - Category (dropdown)
+    - Tags (comma separated words)
+    - Picture (file upload)
+
+  - 1.2 - Category table that includes:
+    - Category Name
+    - Parent Category Name (optional)
+    - Is Active
+
+- 2 - Both category & product lists should include basic search/filtration functionality
+- 3 - The pages should be styled with basic CSS (like bootstrap or other)
+- 3 - Create a `README.md` file describing steps required to run the application.
+- 4 - Push your code (and SQL dump or migrations) to Github or another git provider, and send the repository link.
+
+#### Notes:
+
+- You can develop the pages using PHP Native way or using your preferred MVC framework.
+
+ - Protecting the module with authorization (simple logic screen) is a plus.
+
+ - Creating the database using SQL migrations is a plus.
+
+------------------------------
 
 ## Requirments:
 
